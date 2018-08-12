@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden"
+    tools:context=".Play">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="352dp"
+            android:layout_height="352dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/png"
+            app:columnCount="3"
+            app:rowCount="3">
+
+            <ImageView
+                android:id="@+id/xGrid1"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+                android:tag="0"/>
+
+            <ImageView
+                android:id="@+id/xGrid2"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+
+                android:tag="1"/>
+
+            <ImageView
+                android:id="@+id/xGrid3"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+                android:tag="2" />
+
+            <ImageView
+                android:id="@+id/xGrid4"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+                android:tag="3" />
+
+            <ImageView
+                android:id="@+id/xGrid5"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+
+                android:tag="4"/>
+
+            <ImageView
+                android:id="@+id/xGrid6"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+
+                android:tag="5"/>
+
+            <ImageView
+                android:id="@+id/xGrid7"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+
+                android:tag="6"/>
+
+            <ImageView
+                android:id="@+id/xGrid8"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+
+                android:tag="7"/>
+
+            <ImageView
+                android:id="@+id/xGrid9"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="dropIn"
+
+                android:tag="8"/>
+        </android.support.v7.widget.GridLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
